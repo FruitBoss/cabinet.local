@@ -1,0 +1,74 @@
+.banner {
+    display: block;
+    margin: 0 auto;
+}
+#login {
+  position: relative;
+  margin: 1% auto;
+  width: 133px;
+  text-align: center;
+}
+.logotype {
+    font-family:Impact, Impact5, Charcoal6, sans-serif;
+    color: #1B679A;
+     margin: 0 auto;
+    text-align: center;
+    margin-bottom: 1%;
+}
+#login_div {
+    position: relative;
+    height: 100vh;
+}
+
+.personal_account {
+  text-align: center;
+}
+
+.data {
+  margin-left: 40px;
+  float: left;
+
+}
+table th {
+  text-align: center;
+}
+
+#exit {
+    float: right;
+    margin-right: 1%;
+}
+
+.change {
+    float: right;
+}
+
+#row {
+    margin: 0 auto;
+}
+
+.hidetd {
+    display: none;
+}
+body {
+    position: relative;
+    color: #6495ED;
+}
+.student {
+    display: inline;
+    text-align: center;
+    font-family: Arial;
+    font-size: 15pt;
+    margin-left: 10px;
+}
+#copyright {
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    text-align: center;
+}
+.direction {
+    height: 50px;
+}
+.row button {
+    margin: 5px 5px;
+}

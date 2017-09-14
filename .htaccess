@@ -1,0 +1,3 @@
+#Устанавливаем альтернативную страницу по-умолчанию
+DirectoryIndex login.php
+AddDefaultCharset UTF-8
