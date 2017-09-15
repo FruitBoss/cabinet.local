@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45db2f51-8c4c-4757-95f4-aa0dd41c9a96" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test_student.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -175,6 +176,9 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -367,7 +371,7 @@
       <workItem from="1505404207771" duration="2195000" />
       <workItem from="1505406513948" duration="214000" />
       <workItem from="1505462499101" duration="998000" />
-      <workItem from="1505487045070" duration="2135000" />
+      <workItem from="1505487045070" duration="2325000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1505464285993</created>
@@ -411,11 +415,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505489083339</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="test_student">
+      <created>1505489196288</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1505489196288</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="285714000" />
+    <option name="totallyTimeSpent" value="285904000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,7 +511,8 @@
     <MESSAGE value="11" />
     <MESSAGE value="22" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="test_student" />
+    <option name="LAST_COMMIT_MESSAGE" value="test_student" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
