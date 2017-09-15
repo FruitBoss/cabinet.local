@@ -174,7 +174,7 @@ _END;
         <li class="active"><a data-toggle="tab" href="#panel1">Личные данные</a></li>
         <li><a data-toggle="tab" href="#panel2">Результаты сессии</a></li>
         <li><a data-toggle="tab" href="#panel3">Расписание занятий</a></li>
-
+        <li><a data-toggle="tab" href="#panel4">Портфолио</a></li>
     </ul>
 
     <div class="tab-content">
@@ -439,6 +439,19 @@ _END;
                     }
 
     ?>
+
+<!-- Вкладка с работами студента  -->
+        <div id="panel4" class="tab-pane fade">
+            <div class="panel4 panel panel-default col-xs-10 col-xs-offset-1">
+                <div class="panel-heading">
+                    Портфолио
+                </div>
+                <div class="panel-body">
+                        В разраобтке...
+                </div>
+            </div>
+        </div>
+
  <script>
      $(document).ready(function(){
         // Сохранение результата сессии
