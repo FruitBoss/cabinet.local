@@ -74,6 +74,7 @@ _END;
     <!-- Подключение внешних js скриптов -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.file-input.js"></script>
 </head>
 <body>
 <!-- Вызов модального окна изменения пароля -->
@@ -447,7 +448,11 @@ _END;
                     Портфолио
                 </div>
                 <div class="panel-body">
-                        В разраобтке...
+                    <form action="" name="uploader" enctype="multipart/form-data" method="post">
+                        Выберите файл <input type="file" name="userfile" title="Выбрать файл">
+                    </form>
+                    <input class="form-control" type="text" required="required" placeholder="Введите название работы">
+                    <button type="button" class="btn btn-default">Отправить</button>
                 </div>
             </div>
         </div>
@@ -504,6 +509,10 @@ _END;
              $('#myModalEmail').modal('hide');
              location.href="main.php?email="+$('#newEmail').val();
          })
+
+         //Оформление нкопки для загрузки файлов
+         $('input[type=file]').bootstrapFileInput();
+         $('.file-inputs').bootstrapFileInput();
      });
 </script>
 </body>
