@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45db2f51-8c4c-4757-95f4-aa0dd41c9a96" name="Default" comment="">
+    <list default="true" id="45db2f51-8c4c-4757-95f4-aa0dd41c9a96" name="Default" comment="1">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -307,7 +307,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
@@ -517,7 +517,7 @@
       <workItem from="1505462499101" duration="998000" />
       <workItem from="1505487045070" duration="5774000" />
       <workItem from="1505743519405" duration="6000" />
-      <workItem from="1505743672246" duration="1394000" />
+      <workItem from="1505743672246" duration="1556000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1505464285993</created>
@@ -596,11 +596,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505494667661</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1">
+      <created>1505751192409</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1505751192409</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290753000" />
+    <option name="totallyTimeSpent" value="290915000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -688,7 +695,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="test_student" />
     <MESSAGE value="bootstrap-file-input" />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap-file-input" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
