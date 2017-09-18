@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45db2f51-8c4c-4757-95f4-aa0dd41c9a96" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/portfolio/153139/1.jpg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/test_student.txt" afterPath="$PROJECT_DIR$/portfolio/153139/test_student.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="551">
@@ -81,13 +83,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1.jpg" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/portfolio/153139/1.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/login.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -101,7 +96,7 @@
         </entry>
       </file>
       <file leaf-file-name="test_student.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_student.txt">
+        <entry file="file://$PROJECT_DIR$/portfolio/153139/test_student.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="19">
               <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -329,6 +324,11 @@
       <path value="$PROJECT_DIR$/cabinet" />
     </excluded-roots>
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\domains\cabinet.local\portfolio\153139" />
+    </key>
+  </component>
   <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
     <UpdatedFiles>
       <FILE-GROUP>
@@ -530,7 +530,7 @@
       <workItem from="1505462499101" duration="998000" />
       <workItem from="1505487045070" duration="5774000" />
       <workItem from="1505743519405" duration="6000" />
-      <workItem from="1505743672246" duration="1802000" />
+      <workItem from="1505743672246" duration="1857000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1505464285993</created>
@@ -637,11 +637,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505751580003</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="img">
+      <created>1505751594706</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1505751594706</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="291161000" />
+    <option name="totallyTimeSpent" value="291216000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -849,7 +856,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_student.txt">
+    <entry file="file://$PROJECT_DIR$/portfolio/153139/test_student.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
