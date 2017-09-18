@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45db2f51-8c4c-4757-95f4-aa0dd41c9a96" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cabinet.local.iml" afterPath="$PROJECT_DIR$/.idea/cabinet.local.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/portfolio/153139/1.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="551">
@@ -80,6 +79,13 @@
                 <marker date="1505743710280" expanded="true" signature="21279:21365" ph="SELECT * FRO... timetable" />
               </folding>
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="1.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/portfolio/153139/1.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
           </provider>
         </entry>
       </file>
@@ -297,6 +303,12 @@
               <item name="cabinet.local" type="b2602c69:ProjectViewProjectNode" />
               <item name="cabinet.local" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="portfolio" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="cabinet.local" type="b2602c69:ProjectViewProjectNode" />
+              <item name="cabinet.local" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="portfolio" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="153139" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -519,7 +531,7 @@
       <workItem from="1505462499101" duration="998000" />
       <workItem from="1505487045070" duration="5774000" />
       <workItem from="1505743519405" duration="6000" />
-      <workItem from="1505743672246" duration="1724000" />
+      <workItem from="1505743672246" duration="1785000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1505464285993</created>
@@ -612,11 +624,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505751349513</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="2">
+      <created>1505751522639</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1505751522639</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="291083000" />
+    <option name="totallyTimeSpent" value="291144000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -629,9 +648,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17203514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17203514" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32649574" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12447917" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -706,14 +724,14 @@
     <MESSAGE value="test_student" />
     <MESSAGE value="bootstrap-file-input" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="2" />
+    <option name="LAST_COMMIT_MESSAGE" value="2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/style.css" />
     <entry file="file://$PROJECT_DIR$/load_stud.php" />
     <entry file="file://$PROJECT_DIR$/inc/connection.php" />
     <entry file="file://$PROJECT_DIR$/login.php" />
@@ -856,6 +874,11 @@
             <marker date="1505743710280" expanded="true" signature="21279:21365" ph="SELECT * FRO... timetable" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/portfolio/153139/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
