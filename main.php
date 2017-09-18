@@ -445,14 +445,32 @@ _END;
         <div id="panel4" class="tab-pane fade">
             <div class="panel4 panel panel-default col-xs-10 col-xs-offset-1">
                 <div class="panel-heading">
-                    Портфолио
+                    Портфолио:
                 </div>
                 <div class="panel-body">
-                    <form action="" name="uploader" enctype="multipart/form-data" method="post">
-                        Выберите файл <input type="file" name="userfile" title="Выбрать файл">
-                    </form>
-                    <input class="form-control" type="text" required="required" placeholder="Введите название работы">
-                    <button type="button" class="btn btn-default">Отправить</button>
+                    <div class="col-xs-12">
+                        <form action="" name="uploader" enctype="multipart/form-data" method="post">
+                             <input type="file" name="userfile" title="Выбрать файл">
+                                <div class="clearfix">
+                                    <input class="form-control col-xs-12 clearfix" type="text" required="required" placeholder="Введите название работы" style="width:701px"  maxlength="100">
+                                </div>
+
+
+                        </form>
+                        <button type="button" class="btn btn-default">Отправить</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="panel4 panel panel-default col-xs-10 col-xs-offset-1">
+                <div class="panel-heading">
+                    Загруженные работы:
+                </div>
+                <div class="panel-body">
+                    <div class="col-xs-12">
+
+                    </div>
+
                 </div>
             </div>
         </div>
