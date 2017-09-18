@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45db2f51-8c4c-4757-95f4-aa0dd41c9a96" name="Default" comment="1">
+    <list default="true" id="45db2f51-8c4c-4757-95f4-aa0dd41c9a96" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/cabinet.local.iml" afterPath="$PROJECT_DIR$/.idea/cabinet.local.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -307,7 +309,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.deploy.options" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
@@ -517,7 +519,7 @@
       <workItem from="1505462499101" duration="998000" />
       <workItem from="1505487045070" duration="5774000" />
       <workItem from="1505743519405" duration="6000" />
-      <workItem from="1505743672246" duration="1556000" />
+      <workItem from="1505743672246" duration="1724000" />
     </task>
     <task id="LOCAL-00001" summary="11">
       <created>1505464285993</created>
@@ -603,11 +605,18 @@
       <option name="project" value="LOCAL" />
       <updated>1505751192409</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="1">
+      <created>1505751349513</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1505751349513</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="290915000" />
+    <option name="totallyTimeSpent" value="291083000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -687,6 +696,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/cabinet" />
     </ignored-roots>
