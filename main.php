@@ -452,7 +452,7 @@ _END;
                         <form action="" name="uploader" enctype="multipart/form-data" method="post">
                              <input type="file" name="userfile" title="Выбрать файл">
                                 <div class="clearfix">
-                                    <input class="form-control col-xs-12 clearfix" type="text" required="required" placeholder="Введите название работы" style="width:701px"  maxlength="100">
+                                    <input name="" class="form-control col-xs-12 clearfix" type="text" required="required" placeholder="Введите название работы" style="width:701px"  maxlength="100">
                                 </div>
                             <button type="submit" name="submit" class="btn btn-default">Отправить</button>
                         </form>
@@ -523,9 +523,7 @@ _END;
          $('#saveEmail').on('click', function(){
              $('#myModalEmail').modal('hide');
              location.href="main.php?email="+$('#newEmail').val();
-         })
-
-
+         });
 
          //Передача файлов в папку пользователся
 
