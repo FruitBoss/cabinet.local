@@ -13,6 +13,9 @@
         $out = "Возможная атака с помощью файловой загрузки!\n";
     }
 
-    echo $out;
+    echo $out."<br>";
+    print_r($_POST);
+    echo  "<br>";
+    print_r($_FILES);
 
 ?>

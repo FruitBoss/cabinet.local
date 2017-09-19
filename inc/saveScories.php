@@ -11,13 +11,7 @@
 
     foreach ($_POST['save'] as $i) {
         $query = "INSERT INTO statement VALUES (NULL,{$_POST['id_student']},{$i[0]},'{$i[1]}','{$i[2]}')";
-   // $query = "INSERT INTO statement VALUES (NULL,{$_POST['id_student']},";
-   // foreach ($i as $j) {
-     //   $query .= "'{$j},'";
 
-    //}
-   // $query = substr($query, 0 , -1);
-    //$query .=")";
     echo  $query."<br>";
     $connection->query($query);
 

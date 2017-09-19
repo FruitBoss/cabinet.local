@@ -528,8 +528,9 @@ _END;
          //Передача файлов в папку пользователся
 
                  $("form[name='uploader']").submit(function(e) {
-                     var formData = new FormData($(this)[0]);
-
+                     //var formData = new FormData($(this)[0]);
+                     var formData = new FormData(this);
+                     var textData = $(this)
                      $.ajax({
                          url: '/inc/file.php',
                          type: "POST",
