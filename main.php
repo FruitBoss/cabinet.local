@@ -454,12 +454,9 @@ _END;
                                 <div class="clearfix">
                                     <input class="form-control col-xs-12 clearfix" type="text" required="required" placeholder="Введите название работы" style="width:701px"  maxlength="100">
                                 </div>
-
-
+                            <button type="submit" name="submit" class="btn btn-default">Отправить</button>
                         </form>
-                        <button type="button" class="btn btn-default">Отправить</button>
                     </div>
-
                 </div>
             </div>
             <div class="panel4 panel panel-default col-xs-10 col-xs-offset-1">
@@ -528,6 +525,30 @@ _END;
              location.href="main.php?email="+$('#newEmail').val();
          })
 
+
+
+         //Передача файлов в папку пользователся
+
+                 $("form[name='uploader']").submit(function(e) {
+                     var formData = new FormData($(this)[0]);
+
+                     $.ajax({
+                         url: '/inc/file.php',
+                         type: "POST",
+                         data: formData,
+                         async: false,
+                         success: function (msg) {
+                             alert(msg);
+                         },
+                         error: function(msg) {
+                             alert('Ошибка!');
+                         },
+                         cache: false,
+                         contentType: false,
+                         processData: false
+                     });
+                     e.preventDefault();
+                 });
          //Оформление нкопки для загрузки файлов
          $('input[type=file]').bootstrapFileInput();
          $('.file-inputs').bootstrapFileInput();
