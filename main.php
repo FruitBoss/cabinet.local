@@ -471,10 +471,10 @@ _END;
                                 <th>Название</th><th>Ссылка</th><th>Удалить</th>
                             </tr>
                             <?
-                            $query = "SELECT name_file, patch_file FROM portfolio WHERE user_file = {$_SESSION['id']}";
+                            $query = "SELECT id, name_file, patch_file FROM portfolio WHERE user_file = {$_SESSION['id']}";
                             $result = $connection->query($query);
                             foreach ($result as $key) {
-                                $file = substr($key['patch_file'],35);
+                                $file = substr($key['patch_file'],33);
                                 echo "<tr><td>{$key['name_file']}</td><td><a href='{$file}'>Скачать</a></td><td><button class='glyphicon glyphicon-remove-circle delete' style='color: red'></button></td></tr>";
                             }
                             ?>
@@ -564,7 +564,16 @@ _END;
 
          //Удаление файлов с портфолио
          $('.delete').click(function () {
-            $(this).closest('tr').find()
+            alert($(this).closest('tr').find('a').attr('href'));
+            var file_delete = $(this).closest('tr').find('a').attr('href');
+            $.ajax({
+                type:"POST",
+                url: "/inc/delete.php",
+                data: 'file_delete='+file_delete,
+                success: function (msg) {
+                    alert(msg);
+                }
+            });
          });// конец удаление файлов с портфолио
 
 
