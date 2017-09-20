@@ -452,8 +452,9 @@ _END;
                         <form action="" name="uploader" enctype="multipart/form-data" method="post">
                              <input type="file" name="userfile" title="Выбрать файл">
                                 <div class="clearfix">
-                                    <input name="" class="form-control col-xs-12 clearfix" type="text" required="required" placeholder="Введите название работы" style="width:701px"  maxlength="100">
+                                    <input name="name" class="form-control col-xs-12 clearfix" type="text" required="required" placeholder="Введите название работы" style="width:701px"  maxlength="100">
                                 </div>
+                            <input type="hidden" name="login" value="<?=$_SESSION['id']?>">
                             <button type="submit" name="submit" class="btn btn-default">Отправить</button>
                         </form>
                     </div>
@@ -461,11 +462,23 @@ _END;
             </div>
             <div class="panel4 panel panel-default col-xs-10 col-xs-offset-1">
                 <div class="panel-heading">
-                    Загруженные работы:
+
                 </div>
                 <div class="panel-body">
                     <div class="col-xs-12">
-
+                        <table border="1" class="table table-bordered">
+                            <tr>
+                                <th>Название</th><th>Ссылка</th><th>Удалить</th>
+                            </tr>
+                            <?
+                            $query = "SELECT name_file, patch_file FROM portfolio WHERE user_file = {$_SESSION['id']}";
+                            $result = $connection->query($query);
+                            foreach ($result as $key) {
+                                $file = substr($key['patch_file'],35);
+                                echo "<tr><td>{$key['name_file']}</td><td><a href='{$file}'>Скачать</a></td><td><button class='glyphicon glyphicon-remove-circle delete' style='color: red'></button></td></tr>";
+                            }
+                            ?>
+                        </table>
                     </div>
 
                 </div>
@@ -530,7 +543,6 @@ _END;
                  $("form[name='uploader']").submit(function(e) {
                      //var formData = new FormData($(this)[0]);
                      var formData = new FormData(this);
-                     var textData = $(this)
                      $.ajax({
                          url: '/inc/file.php',
                          type: "POST",
@@ -546,8 +558,16 @@ _END;
                          contentType: false,
                          processData: false
                      });
-                     e.preventDefault();
+                     return false;
+                     //e.preventDefault();
                  });
+
+         //Удаление файлов с портфолио
+         $('.delete').click(function () {
+            $(this).closest('tr').find()
+         });// конец удаление файлов с портфолио
+
+
          //Оформление нкопки для загрузки файлов
          $('input[type=file]').bootstrapFileInput();
          $('.file-inputs').bootstrapFileInput();
